@@ -30,7 +30,7 @@ height: 100vh;
 }
 .banner .bannercontent .bannerTitle img
 {
-    padding:2% 0% 10% 1%;
+    padding:15% 0% 6% 1%;
 object-fit: contain;
 max-width: 60%;
 }
@@ -38,10 +38,7 @@ max-width: 60%;
 {
     margin: 1%;
 }
-.bannercontents
-{
-    padding: 20% 15%%;
-}
+
 .bannerTitle h1 
 {
      color: #ffffff;
@@ -53,6 +50,7 @@ max-width: 60%;
      color: #A3A3A3;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
+    padding: 1%;
 }
 .bannerTitle h3 .star
 {
@@ -117,4 +115,32 @@ nav .action{
     gap: 4px;
 padding: 2% ;
 
+}
+/*sugested movies}*/
+
+ h1{
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+ h3{
+
+font-weight: 100;
+
+ }
+.posters{
+    border: 20px;
+    display: flex;
+  overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 1% 0.5%; 
+    gap: 1%;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.poster{
+    margin: 0% 0.5%;
+    border-radius: 0.5%;
+  
 }
